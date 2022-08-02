@@ -2,7 +2,7 @@ p = int(input("How many sticks (N) in the pile? : "))
 print("There are", p, "sticks in the pile")
 name = str(input("What is your name? : "))
 
-i = 0
+i = 1
 import random
 while (p != 0):
     if (i%2 == 0):
