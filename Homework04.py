@@ -22,7 +22,6 @@ while (p != 0):
     elif (p-n < 0):
         print("There are no sticks enough to take.\n")
     else :
-        i += 1
         p = p-n
         if (p == 0):
             if (i%2 == 0):
@@ -33,3 +32,4 @@ while (p != 0):
                 print(name, ", Win (Computer, am sad T_T)")
         else :
             print("There are", p, "sticks in the pile.\n")
+        i += 1
